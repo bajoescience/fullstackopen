@@ -1,0 +1,6 @@
+browser->server: https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note over browser:
+    Request is post
+    end note
+
+server->browser: {content: "really", date: "2022-01-03T12:36:44.303Z"}
