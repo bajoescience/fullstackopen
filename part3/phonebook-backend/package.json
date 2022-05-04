@@ -6,15 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "lint": "eslint ."
   },
+  "proxy": "http://localhost:3001",
   "author": "Bola-Ajayi-Joseph",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
+    "mongoose": "^6.3.2",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "eslint": "^8.14.0",
     "nodemon": "^2.0.15"
   }
 }
